@@ -1,0 +1,10 @@
+vehMassKerb = 110 ; // [kg]
+vehMassDriver = 80; // [kg]
+vehMassfm = 1.05; 
+vehMass = vehMassKerb * vehMassfm + vehMassDriver; // [kg] 
+vehg = 9.81; // [m/s^2]
+vehcd = 0.52; 
+vehfa = 0.46; // [m^2]
+vehro = 1.202; // [kg/m^3]
+roadSlope = 0; // [rad]
+roadCrr = 0.02; 
